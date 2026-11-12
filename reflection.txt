@@ -1,0 +1,5 @@
+ 1. Firstly i create a new file and then add a boiler plate code after that i add some tags in it.
+ 2. Mainly today i learn ul , img and anchor tag.
+ 3. I face two difficulties first is in the ul tag and other one is sharing the github repository.
+ 4. Simply i google it.
+ 5. I learn from this assignment that how to use github.
