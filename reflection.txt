@@ -1,5 +1,5 @@
- 1. Firstly i create a new file and then add a boiler plate code after that i add some tags in it.
- 2. Mainly today i learn ul , img and anchor tag.
- 3. I face two difficulties first is in the ul tag and other one is sharing the github repository.
- 4. Simply i google it.
- 5. I learn from this assignment that how to use github.
+ 1. Radio buttons--> we can use only one option Checkboxes--> we can use many options.
+ 2. The <label> tag defines a caption for a form.
+ 3. <th> defines a header cell for a column or row. <td> defines a standard data cell containing the actual values.
+ 4. Semantic HTML elements clearly describe their meaning and role to both the browser and the developer.
+ 5. radio and checkbox is most challenging part.
