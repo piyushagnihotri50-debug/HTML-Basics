@@ -1,5 +1,8 @@
- 1. Radio buttons--> we can use only one option Checkboxes--> we can use many options.
- 2. The <label> tag defines a caption for a form.
- 3. <th> defines a header cell for a column or row. <td> defines a standard data cell containing the actual values.
- 4. Semantic HTML elements clearly describe their meaning and role to both the browser and the developer.
- 5. radio and checkbox is most challenging part.
+ 1. css is the language used to style and lay out web pages.
+ 2. a)Inline--> we write code in a particular line.
+    b)Internal--> we write code in header it applies to single html page.
+    3)External--> we link the html file with css file it applies to whole web page.
+3. Class Selector (.): applied to multiple elements on the same page.
+   ID Selector (#): applied to only one element per page.
+4. today i use colour font text property of css.
+5. mainly i face problem in accesing in img tag.

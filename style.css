@@ -1,0 +1,46 @@
+body {
+  background-color: #feffa9;                     
+  font-family: Arial, sans-serif;  
+  font-size: 16px;                 
+               
+}
+
+h1 {
+  color: #ff0000;                  
+  text-align: center;             
+  font-size: 32px;                
+}
+
+.intro {
+  font-weight: bold;               
+  text-align: center; 
+  color: #00a015;             
+}
+
+a {
+  color: #2980b9;                  
+  text-decoration: underline;      
+  font-weight: bold;
+}
+#design {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: 5px solid #b90404;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+h2 {
+  color: rgb(155, 27, 119);
+}
+.hobbie{
+   color: rgb(43, 8, 217);
+
+}
+a:hover {
+  color: #c70636;
+   
+}
+
+
