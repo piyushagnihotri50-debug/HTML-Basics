@@ -4,99 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>Registration</section>
-<form action="/submit-data" method="POST">
-  <label for="username">Name:</label>
-  <input type="text" id="username" name="username" placeholder="Name" required><br>
+  <section>
+    <h2>Registration</h2>
+    <form action="/submit-data" method="POST">
+      <label for="username">Name:</label>
+      <input type="text" id="username" name="username" placeholder="Name" required><br>
 
-  <label for="useremail">Email:</label>
-  <input type="email" id="useremail" name="useremail" placeholder="email" required><br>
+      <label for="useremail">Email:</label>
+      <input type="email" id="useremail" name="useremail" placeholder="Email" required><br>
 
-   <label for="mobile">Mobile number:</label>
-  <input type="tel" id="mobile" name="mobile" placeholder="mobile no." maxlength="10" required><br>
+      <label for="mobile">Mobile number:</label>
+      <input type="tel" id="mobile" name="mobile" placeholder="Mobile no." maxlength="10" required><br>
 
-   <label for="DOB">Date Of Birth:</label>
-  <input type="date" id="DOB" name="DOB" required><br>
+      <label for="DOB">Date Of Birth:</label>
+      <input type="date" id="DOB" name="DOB" required><br>
 
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" placeholder="password" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Password" required><br>
 
-   <label for="Gender">Gender:</label><br>
-   <input type="radio" id="male" name="gender" value="male" checked>
-   <label for="male">Male</label><br>
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="male">Male</label><br>
 
-   <input type="radio" id="female" name="gender" value="female">
-   <label for="female">Female</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
 
-   <label for="course">Course:</label><br>
-  <select id="course" name="course">
-  <option value="">Select an option</option>
-  <option value="ece">Electronics and Communication</option>
-  <option value="cse core">Computer Science</option>
-  <option value="cs-ail ml">Computer Science AI/ML</option>
-  <option value="it">Information Technology</option>
-  </select><br>
+      <label for="course">Course:</label><br>
+      <select id="course" name="course" required>
+        <option value="">Select an option</option>
+        <option value="ece">Electronics and Communication</option>
+        <option value="cse-core">Computer Science</option>
+        <option value="cs-aiml">Computer Science AI/ML</option>
+        <option value="it">Information Technology</option>
+      </select><br>
 
-  <label for="hobbie">Hobbie:</label><br>
-  <input type="checkbox" id="coding" name="interests" value="coding" checked>
-  <label for="coding">Coding</label><br>
+      <p>Hobbies:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding" checked>
+      <label for="coding">Coding</label><br>
 
-  <input type="checkbox" id="design" name="interests" value="design">
-  <label for="design">Design</label><br>
+      <input type="checkbox" id="design" name="interests" value="design">
+      <label for="design">Design</label><br>
 
-  <input type="checkbox" id="cricket" name="interests" value="cricket">
-  <label for="cricket">Cricket</label><br>
-   <label for="address">Address:</label><br>
-  <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your address here..."></textarea><br>
-  <button type="submit">Submit</button><br>
-  <details>
-  <summary>Confirm Submission</summary>
-  <p><strong>Thank you!</strong> Your response has been recorded.</p>
-</details>
+      <input type="checkbox" id="cricket" name="interests" value="cricket">
+      <label for="cricket">Cricket</label><br>
 
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="5" cols="40" placeholder="Write your address here..."></textarea><br>
 
-   <label for="reset">Reset:</label>
-  <input type="reset" id="reset" name="reset" required>
-  
-</form>
-<hr>
-<section>Academic Details</section>
-<table border="1">
-     <thead>
-    <tr>
-      <th>Student Name</th>
-      <th>Roll No:</th>
-      <th>Branch</th>
-      <th>Semester</th>
-      <th>College</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Anuj Sharma</td>
-      <td>2613456</td>
-      <td>CSE</td>
-      <td>4th</td>
-      <td>PSIT</td>
-    </tr>
-    <tr>
-      <td>Shubham Shukla</td>
-      <td>2613406</td>
-      <td>ECE</td>
-      <td>2th</td>
-      <td>PSIT</td>
-    </tr>
-    <tr>
-      <td>Govind</td>
-      <td>2613283</td>
-      <td>IT</td>
-      <td>6th</td>
-      <td>PSIT</td>
-    </tr>
-</table>
-<hr>
-<footer>Thankyou for visiting our website</footer>
+      <button type="submit">Submit</button>
+      <input type="reset" value="Reset">
+
+      <details>
+        <summary>Confirm Submission</summary>
+        <p><strong>Thank you!</strong> Your response has been recorded.</p>
+      </details>
+    </form>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Academic Details</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Roll No:</th>
+          <th>Branch</th>
+          <th>Semester</th>
+          <th>College</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anuj Sharma</td>
+          <td>2613456</td>
+          <td>CSE</td>
+          <td>4th</td>
+          <td>PSIT</td>
+        </tr>
+        <tr>
+          <td>Shubham Shukla</td>
+          <td>2613406</td>
+          <td>ECE</td>
+          <td>2nd</td>
+          <td>PSIT</td>
+        </tr>
+        <tr>
+          <td>Govind</td>
+          <td>2613283</td>
+          <td>IT</td>
+          <td>6th</td>
+          <td>PSIT</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+  <footer>Thank you for visiting our website</footer>
 </body>
 </html>
