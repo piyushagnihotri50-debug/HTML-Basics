@@ -1,8 +1,8 @@
- 1. css is the language used to style and lay out web pages.
- 2. a)Inline--> we write code in a particular line.
-    b)Internal--> we write code in header it applies to single html page.
-    3)External--> we link the html file with css file it applies to whole web page.
-3. Class Selector (.): applied to multiple elements on the same page.
-   ID Selector (#): applied to only one element per page.
-4. today i use colour font text property of css.
-5. mainly i face problem in accesing in img tag.
+1. The CSS Box Model is the fundamental rule that every HTML element on a webpage is treated as a rectangular box made up
+2. 
+	Margin:Outside the border
+   padding:Inside the border
+3. 
+   Block:Always starts on a new line 
+   Inline:Stays in same line
+4. We use box-sizing: border-box so that adding padding never increases the total width or height of a box.
