@@ -1,8 +1,5 @@
-1. The CSS Box Model is the fundamental rule that every HTML element on a webpage is treated as a rectangular box made up
-2. 
-	Margin:Outside the border
-   padding:Inside the border
-3. 
-   Block:Always starts on a new line 
-   Inline:Stays in same line
-4. We use box-sizing: border-box so that adding padding never increases the total width or height of a box.
+1. css flexbox is a one-dimensional layout model used to arrange, align, and distribute space among items inside a container.
+2. justify content-->works horizontaly
+   align item-->works vertically
+3. flex-wrap: wrap tells the container to allow items to break onto multiple lines whenever there is not enough space in container.
+4. A media query is a CSS rule that applies specific styles only when a device or browser window meets certain conditions, such as a minimum or maximum screen width.

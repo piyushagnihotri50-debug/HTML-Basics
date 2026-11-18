@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 4, 233);
+    flex-wrap: nowrap;
+}
+.item{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+#item1{
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(109, 200, 109);
+    border-radius: 6px;
+    align-items: center;
+}
+#product{
+    height: 30px;
+    width: 600px;
+    margin-top: 10px;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    display: block;
+}
+.title{
+    color: white;
+    margin-top: 10px;
+}
+.title:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 24px;
+  background-color: rgb(19, 4, 233);
+  padding: 10px 20px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 4px;            
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item img {
+  width: 32px;
+  height: 32px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px;
+  background-color: #f0f4ff;
+  min-height: 80vh;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  font-size: 25px;
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px;
+    gap: 10px;
+  }
+
+  #item1 {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  #product {
+    width: 100%;
+  }
+
+  .navbar {
+    gap: 16px;
+    padding: 6px 10px;
+  }
+
+  .nav-item img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+}
+
