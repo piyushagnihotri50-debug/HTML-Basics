@@ -1,5 +1,4 @@
-1. css flexbox is a one-dimensional layout model used to arrange, align, and distribute space among items inside a container.
-2. justify content-->works horizontaly
-   align item-->works vertically
-3. flex-wrap: wrap tells the container to allow items to break onto multiple lines whenever there is not enough space in container.
+1. CSS Grid is a two-dimensional layout system built into CSS that lets you arrange webpage elements into rows and columns at the same time. 
+2. Flexbox is one-dimensional and CSS Grid is two-dimensional
+3. The grid-template-columns property defines the number and width of columns in a CSS Grid container.
 4. A media query is a CSS rule that applies specific styles only when a device or browser window meets certain conditions, such as a minimum or maximum screen width.
