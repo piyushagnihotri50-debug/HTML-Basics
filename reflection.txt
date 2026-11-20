@@ -1,4 +1,4 @@
-1. CSS Grid is a two-dimensional layout system built into CSS that lets you arrange webpage elements into rows and columns at the same time. 
-2. Flexbox is one-dimensional and CSS Grid is two-dimensional
-3. The grid-template-columns property defines the number and width of columns in a CSS Grid container.
-4. A media query is a CSS rule that applies specific styles only when a device or browser window meets certain conditions, such as a minimum or maximum screen width.
+1. Relative positioning keeps an element in the normal document flow and shifts it relative to its original starting position without affecting surrounding elements.
+2. The z-index property controls the vertical stacking order of overlapping elements along the z-axis.
+3. Fixed positioning removes an element from the document flow and locks it to a specific spot in the browser viewport, so it stays in the exact same place even when the user scrolls. And Sticky positioning keeps an element in the normal document flow so it scrolls normally until it reaches a specified scroll offset, at which point it locks in place like a fixed element within its parent container.
+4. CSS transitions allow property values to change smoothly over a specified duration rather than snapping instantly from one state to another. 
